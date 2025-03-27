@@ -27,4 +27,8 @@ const findDuplicate = (array)=>{
     return uniqueItems
 }
 const items = findDuplicate(arr)
-console.log(items)
+// console.log(items)
+
+
+
+// optimal approach --> two pointer method
