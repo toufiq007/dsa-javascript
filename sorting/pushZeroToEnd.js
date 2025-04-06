@@ -14,6 +14,7 @@ const solution = (array) => {
     let swap = false;
     for (let j = 0; j < n - 1 - i; j++) {
       if (array[j] == 0) {
+        // this is the code for swapping the values by destructing method
         [array[j], array[j + 1]] = [array[j + 1], array[j]];
         swap = true
       }
